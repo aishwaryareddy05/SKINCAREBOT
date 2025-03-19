@@ -2,14 +2,17 @@
 
 <img src="image.png" alt="SkinTwin Logo" width="100">
 
+##DEMO
+
+<img src="SkinTwinDemo.gif" width="600">
+
+
 ## **Table of Contents**  
 - [Overview](#overview)  
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Setup Instructions](#setup-instructions)  
 - [Project Structure](#project-structure)  
-- [Usage](#usage)  
-- [Example Questions](#example-questions)  
 - [Future Enhancements](#future-enhancements)  
 - [Contributing](#contributing)  
 - [License](#license)  
