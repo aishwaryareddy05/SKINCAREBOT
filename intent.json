@@ -1,0 +1,56 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "What's up?", "Good morning", "Good evening", "Hey there!", "Howdy!", "Greetings!"],
+            "responses": ["Hello! I'm SkinTwin, your virtual skincare twin! How can I assist you today?", "Hi there! Need any skincare advice?", "Hey! Let’s talk about skincare!", "Hi! What's your skincare concern today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Take care", "Catch you later", "Talk to you soon", "See you next time!"],
+            "responses": ["See you later! Keep glowing!", "Goodbye! Stay radiant!", "Bye! Come back for more skincare tips anytime!", "Take care of your skin! Until next time!"]
+        },
+        {
+            "tag": "skin_type",
+            "patterns": ["How do I know my skin type?", "What is my skin type?", "How can I identify my skin type?", "How do I check if my skin is oily or dry?", "How to determine my skin type?"],
+            "responses": [
+                "You can determine your skin type by washing your face and observing how it feels after 30 minutes: \n- Oily: Looks shiny and feels greasy. \n- Dry: Feels tight and rough. \n- Combination: Oily in T-zone and dry on cheeks. \n- Normal: Feels balanced and comfortable."
+            ]
+        },
+        {
+            "tag": "acne_treatment",
+            "patterns": ["How to get rid of acne?", "Best treatment for acne?", "Why do I get pimples?", "How to stop breakouts?", "How to clear acne fast?", "What products help with acne?"],
+            "responses": [
+                "To treat acne, consider the following: \n- Use salicylic acid or benzoyl peroxide-based cleansers. \n- Apply non-comedogenic moisturizers. \n- Avoid touching your face frequently. \n- Drink plenty of water and maintain a healthy diet. \n- Consider seeing a dermatologist for prescription treatments like retinoids or antibiotics."
+            ]
+        },
+        {
+            "tag": "dark_spots",
+            "patterns": ["How to remove dark spots?", "Best treatment for hyperpigmentation?", "What causes dark spots?", "How to fade acne scars?", "Dark spot removal tips?"],
+            "responses": [
+                "Dark spots are caused by sun damage, acne scars, and hormonal changes. \nUse Vitamin C serums, niacinamide, or AHAs/BHAs to fade them over time. Don't forget sunscreen! \nFor stubborn dark spots, try prescription treatments like hydroquinone or consult a dermatologist."
+            ]
+        },
+        {
+            "tag": "wrinkles",
+            "patterns": ["How to reduce wrinkles?", "Best anti-aging skincare?", "How to get youthful skin?", "How to prevent fine lines?", "What helps with wrinkles?"],
+            "responses": [
+                "To reduce wrinkles: \n- Use retinol-based products. \n- Hydrate your skin with hyaluronic acid. \n- Protect your skin with sunscreen daily. \n- Eat a diet rich in antioxidants. \n- Consider professional treatments like micro-needling or laser therapy for deeper wrinkles."
+            ]
+        },
+        {
+            "tag": "sun_protection",
+            "patterns": ["Why should I use sunscreen?", "Best sunscreen for oily skin?", "What SPF should I use?", "Do I need sunscreen indoors?", "How often should I reapply sunscreen?"],
+            "responses": [
+                "Sunscreen prevents premature aging, hyperpigmentation, and skin cancer. \n- For oily skin: Use gel-based or matte finish sunscreens. \n- For dry skin: Use hydrating sunscreens with ceramides. \n- Always choose SPF 30 or higher. \n- Reapply every 2 hours if exposed to the sun."
+            ]
+        },
+        {
+            "tag": "skincare_routine",
+            "patterns": ["What is the best skincare routine?", "How to build a skincare routine?", "What should be my daily skincare steps?", "How do I start a skincare routine?", "What are the essential skincare steps?"],
+            "responses": [
+                "A basic skincare routine includes: \n1. Cleanser - Removes dirt and oil. \n2. Toner - Balances pH levels. \n3. Serum - Targets skin concerns like dark spots or wrinkles. \n4. Moisturizer - Hydrates and locks in moisture. \n5. Sunscreen (AM) - Protects against UV damage. \nFor a more advanced routine, consider adding exfoliants, eye creams, and night treatments."
+            ]
+        }
+    ]
+}
