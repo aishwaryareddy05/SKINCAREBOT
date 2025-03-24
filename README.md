@@ -54,16 +54,6 @@ cd SkinTwin
 pip install -r requirements.txt
 ### **3. Run the Application**
 streamlit run chatbot.py
-### **Project Structure**
-SkinTwin/
-│── chatbot.py           # Main chatbot script
-│── intents.json         # Skincare-related Q&A dataset
-│── chat_model.keras     # Trained deep learning model
-│── tokenizer.pickle     # Tokenizer for NLP
-│── label_encoder.pickle # Encoded labels for classification
-│── skincare.png         # Chatbot logo/image
-│── requirements.txt     # Dependencies
-│── README.md            # Documentation
 
 
 ### **Future Enhancements**
